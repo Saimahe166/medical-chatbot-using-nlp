@@ -1,0 +1,1317 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag":"no-response",
+      "patterns":[ ""],
+      "responses":[
+        "Sorry, I didn't understand you.",
+        "Could you elaborate the issue.",
+        "Share something else.",
+        " Could you please type something ?.",
+        "Please go on.",
+        "Not sure Iunderstand that.",
+        "Is anything wrong !?",
+        "Please don't hesitate to talk to me.",
+        "wanna tell something ? "
+
+
+      ]
+    },
+    {
+      "tag":"not-talking",
+      "patterns":[
+        "I don't want to talk about it.",
+        "No just stay away.",
+        "I can't bring myself to open up.",
+        "Just shut up",
+        "Just ignore it. ",
+        "Better to leave it. "
+
+
+      ],
+      "responses":[
+        "Talking about something really helps. If you're not ready to open up then that's ok. Just know that i'm here for you, whenever you need me.",
+        "I want to help you. I really do. But in order for me to help you, you're gonna have to talk to me.",
+        "I'm here to listen to you and help you vent. So please talk to me.",
+        "You can talk to me without fear of judgment."
+      ]
+        
+    },
+    {
+      "tag":"name",
+      "patterns":[
+        "My name is ",
+        "I am name.",
+        "I go by "
+           
+      ],
+      "responses":[
+        "Oh nice to meet you. Tell me how was your week?",
+        "Nice to meet you. So tell me. How do you feel today?",
+        "That's a great name. Tell me more about yourself."
+
+      ]
+    },
+    {
+      "tag":"fact-1",
+      "patterns":[
+        "What is mental health?",
+        "Define Mental Health"
+      ],
+      "responses":[
+        "Mental health is a state of well-being in which the individual realizes his or her own abilities, can cope with the normal stresses of life, can work productively and fruitfully, and is able to make a contribution to his or her community",
+        "Mental health is a state of well-being in which the individual realizes his or her own abilities, can cope with the normal stresses of life, can work productively and fruitfully, and is able to make a contribution to his or her community",
+        "Mental illness can affect anyone, regardless of gender, age, income, social status, ethnicity, religion, sexual orientation, or background."
+      ]
+    },
+    {
+      "tag":"fact-5",
+      "patterns":[
+        "Am i depressed?",
+        "depression.",
+        "Am i suffering from depression?",
+        "Am i mentally ill?"
+
+      ],
+      "responses":[
+        "For a diagnosis of depression, a person needs to have experienced low mood or loss of interest or pleasure in life for at least 2 weeks. Also, they will have experienced the following symptoms: feelings of sadness, hopelessness, or irritability nearly every day."
+
+      ]
+
+    },
+    {
+      "tag":"fact-10",
+      "patterns":[
+        "What are some of the warning signs of mental illness?"
+
+      ],
+      "responses":[
+        "Symptoms of mental health disorders vary depending on the type and severity of the condition. The following is a list of general symptoms that may suggest a mental health disorder, particularly when multiple symptoms are expressed at once. In adults Confused thinking Long-lasting sadness or irritability Extreme highs and lows in mood Excessive fear, worrying, or anxiety or Social withdrawal or Dramatic changes in eating or sleeping habits and  Strong feelings of anger or Delusions or hallucinations (seeing or hearing things that are not really there) Increasing inability to cope with daily problems and activities."
+     
+      ]
+    },
+    {
+      "tag":"fever",
+      "patterns":[
+        "suffering from fever",
+        "fever"
+      ],
+      "responses":[
+        "Drink plenty of fluids, such as water, broth, or rehydration mix, to prevent dehydration",
+        "Call your doctor if the fever is not lowered by the medication or lasts longer than three days2",
+        "Take a fever-reducing medication, such as acetaminophen, ibuprofen, or aspirin, to lower your temperature and make you more comfortable"
+      ]
+    },
+    {
+      "tag":"head ache",
+      "patterns":[
+        "severe headache",
+        "headache",
+        "pain in the head"
+      ],
+      "responses":[
+        "Rest in a quiet, dark room",
+        "Gently Massage your temples or neck",
+        "Apply hot or cold compresses to your head or neck",
+        "Sip a caffeinated beverage"
+      ]
+    },
+    {
+      "tag":"fact-2",
+      "patterns":[
+        "How do i know if i have Depression?",
+        "Am i depressed?",
+        "Am i suffering from depression?",
+        "Am i mentally ill?"
+      ],
+      "responses":[
+        "For a diagnosis of depression, a person needs to have experienced low mood or loss of interest or pleasure in life for at least 2 weeks. Also, they will have experienced the following symptoms: feelings of sadness, hopelessness, or irritability nearly every day."
+      ]
+    },
+    {
+      "tag":"fact-3",
+      "patterns":[
+        "What should I do if I know someone who appears to have the symptoms of a mental disorder? "
+      ],
+      "responses":[
+        "Although for professional Advice,We encourage those with symptoms to talk to their friends and family members and seek the counsel of a mental health professional.If you know someone who is having problems, don't assume that the issue will resolve itself. Let them know that you care about them, and that there are treatment options available that will help them heal. Speak with a mental health professional or counselor if you think your friend or family member is experiencing the symptoms of a mental health condition. If the affected loved one knows that you support them, they will be more likely to seek out help. "
+      ]
+    },
+    {
+      "tag": "fact-14",
+      "patterns": [ 
+        "Can you prevent mental health problems?"
+      ],
+      "responses":[
+        "We can all suffer from mental health challenges, but developing our wellbeing, resilience, and seeking help early can help prevent challenges becoming serious."
+      ]
+
+    },
+    {
+      "tag": "fact-15",
+      "patterns": [
+        "What causes mental health problems?"
+      ],
+      "responses": [
+        "Challenges or problems with your mental health can arise from psychological, biological, and social, Issues, as well as life events."
+      ]
+    },
+    {
+      "tag": "fact-18",
+      "patterns": [
+          "What do I do if I'm worried about my mental health?"
+      ],
+      "responses": [
+          "The most important thing is to talk to someone you trust. This might be a friend, colleague, family member, or GP. In addition to talking to someone, it may be useful to find out more information about what you are experiencing. These things may help to get some perspective on what you are experiencing, and be the start of getting help."
+      ]
+
+    },
+    {
+      "tag": "fact-17",
+      "patterns": [
+          "What's the difference between sadness and depression?",
+          "difference between sadness and depression"
+      ],
+      "responses": [
+          "Sadness is a normal reaction to loss, disappointment, or difficult situations. It usually goes away quickly and doesn't significantly impact life. Depression is a mental illness that affects mood, self-understanding, and relationships. It can cause feelings of worthlessness, guilt, anger, irritability, difficulty concentrating, loss of interest, and physical symptoms. Depression is treatable and lasts longer than two weeks. Seeking help is crucial."
+      ]
+
+    },
+    {
+      "tag": "fact-16",
+      "patterns": [
+          "What's the difference between anxiety and stress?"
+      ],
+      "responses": [
+         "Stress and anxiety are often used interchangeably, with stress focusing on external pressures and anxiety on worries and fears. Both can be problems if long-lasting or impact daily life.",
+         "People under stress experience mental and physical symptoms, such as irritability, anger, fatigue, muscle pain, digestive troubles, and difficulty sleeping.Anxiety, on the other hand, is defined by persistent, excessive worries that don't go away even in the absence of a stressor."
+      ]
+ 
+    },
+    {
+      "tag": "fact-15",
+      "patterns": [
+          "What causes mental health problems?"
+      ],
+      "responses": [
+          "Challenges or problems with your mental health can arise from psychological, biological, and social, Issues, as well as life events."
+      ]
+
+    },
+    {
+      "tag": "fact-13",
+      "patterns": [
+          "Where can I learn about types of mental health treatment?"
+      ],
+      "responses": [
+          "Mental health conditions are often treated with medication, therapy or a combination of the two. However, there are many different types of treatment available, including Complementary & Alternative Treatments, self-help plans, and peer support. Treatments are very personal and should be discussed by the person with the mental health conditions and his or her team."
+      ]
+
+    },
+    {
+      "tag": "fact-12",
+      "patterns": [
+          "What treatment options are available?"
+      ],
+      "responses": [
+          "Just as there are different types of medications for physical illness, different treatment options are available for individuals with mental illness. Treatment works differently for different people. It is important to find what works best for you or your child."
+      ]
+
+    },
+    {
+      "tag": "fact-11",
+      "patterns": [
+          "Can people with mental illness recover?"
+      ],
+      "responses": [
+          "When healing from mental illness, early identification and treatment are of vital importance. Based on the nature of the illness, there are a range of effective treatments available. For any type of treatment, it is essential that the person affected is proactive and fully engaged in their own recovery process. Many people with mental illnesses who are diagnosed and treated respond well, although some might experience a return of symptoms. Even in such cases, with careful monitoring and management of the disorder, it is still quite possible to live a fulfilled and productive life."
+      ]
+
+    },
+    {
+      "tag": "fact-9",
+      "patterns": [
+          "Who does mental illness affect?"
+      ],
+      "responses": [
+          "It is estimated that mental illness affects 1 in 5 adults in America, and that 1 in 24 adults have a serious mental illness. Mental illness does not discriminate; it can affect anyone, regardless of gender, age, income, social status, ethnicity, religion, sexual orientation, or background.This makes identification and treatment of mental disorders particularly difficult, because the normal personality and behavioral changes of adolescence may mask symptoms of a mental health condition."
+        ]
+
+    },
+    {
+      "tag":"fact-8 ",
+      "patterns": [
+        "What should I do if I know someone who appears to have the symptoms of a mental disorder? "
+      ],
+      "responses ":[
+        "Although for professional Advice,We encourage those with symptoms to talk to their friends and family members and seek the counsel of a mental health professional.If you know someone who is having problems, don't assume that the issue will resolve itself. Let them know that you care about them, and that there are treatment options available that will help them heal. Speak with a mental health professional or counselor if you think your friend or family member is experiencing the symptoms of a mental health condition. If the affected loved one knows that you support them, they will be more likely to seek out help. "
+      ]
+
+    },
+    {
+      "tag":"diet-advice",
+      "patterns": [
+        "What should I include in a healthy diet?",
+        "Give me diet advice",
+        "Recommend a balanced diet"
+      ],
+      "responses":[
+        "A balanced diet includes fruits, vegetables, lean proteins, whole grains, and plenty of water.",
+        "Consider incorporating more leafy greens and colorful vegetables into your meals for added nutrition."
+      ]
+    },
+    {
+      "tag": "stress-management",
+      "patterns": [
+        "How can I manage stress?",
+        "Tips for stress relief",
+        "Dealing with stress"
+      ],
+      "responses": [
+        "Practice deep breathing exercises and mindfulness techniques to reduce stress.",
+        "Regular physical activity and sufficient sleep are crucial for managing stress."
+      ]
+
+    },
+    {
+      "tag": "exercise-routine",
+      "patterns": [
+        "Suggest an exercise routine",
+        "How often should I exercise?",
+        "Exercise recommendations"
+      ],
+      "responses": [
+        "Aim for at least 150 minutes of moderate-intensity aerobic exercise per week.",
+        "Incorporate strength training exercises two or more days a week for overall health."
+      ]
+    },
+    {
+      "tag": "sleep-tips",
+      "patterns": [
+        "How can I improve my sleep?",
+        "Tips for better sleep",
+        "Recommendations for quality sleep"
+      ],
+      "responses": [
+        "Establish a consistent sleep schedule and create a relaxing bedtime routine.",
+        "Avoid screen time before bed and ensure your sleep environment is comfortable and dark."
+      ]
+    },
+    {
+      "tag": "hydration",
+      "patterns": [
+        "How much water should I drink daily?",
+        "Importance of hydration",
+        "Hydration tips"
+      ],
+      "responses": [
+        "The general recommendation is to drink at least 8 cups (64 ounces) of water per day.",
+        "Hydrate with water throughout the day and consider factors like physical activity and climate."
+      ]
+    },
+    {
+      "tag": "stress-awareness",
+      "patterns": [
+        "Why is stress awareness important?",
+        "The impact of stress on health",
+        "Understanding stress"
+      ],
+      "responses": [
+        "Increased stress levels can affect both physical and mental well-being.",
+        "Being aware of stressors allows for proactive management and the promotion of overall health."
+      ]
+    },
+    {
+      "tag": "mindful-eating",
+      "patterns": [
+        "What is mindful eating?",
+        "How to practice mindful eating",
+        "Benefits of mindful eating"
+      ],
+      "responses": [
+        "Mindful eating involves paying full attention to the sensory experience of eating and being present in the moment.",
+        "Practicing mindful eating can enhance appreciation for food and promote healthier eating habits."
+      ]
+    },
+    {
+      "tag": "positive-affirmations",
+      "patterns": [
+        "Can you provide positive affirmations?",
+        "Positive self-talk",
+        "Affirmations for mental well-being"
+      ],
+      "responses": [
+        "You are capable of handling whatever comes your way.",
+        "Your well-being is a priority, and you are deserving of self-care."
+      ]
+    },
+    {
+      "tag": "social-connection",
+      "patterns": [
+        "Importance of social connections",
+        "Ways to foster social connections",
+        "How can I stay socially connected?"
+      ],
+      "responses": [
+        "Maintaining social connections is vital for emotional well-being and overall health.",
+        "Engage in activities that promote social interaction, such as joining clubs or volunteering."
+      ]
+    },
+    {
+      "tag": "self-care",
+      "patterns": [
+        "Why is self-care important?",
+        "Self-care practices",
+        "Prioritizing self-care"
+      ],
+      "responses": [
+        "Self-care is crucial for maintaining physical, emotional, and mental well-being.",
+        "Incorporate activities you enjoy into your routine to promote a sense of balance and relaxation."
+      ]
+    },
+    {
+      "tag": "cough-remedy",
+      "patterns": [
+        "Home remedies for cough",
+        "How to relieve a cough",
+        "Natural cough remedies"
+      ],
+      "responses": [
+        "Try honey and warm tea to soothe a cough.",
+        "Stay hydrated and consider using a humidifier to ease cough symptoms."
+      ]
+    },
+    {
+      "tag": "cold-management",
+      "patterns": [
+        "Managing a cold",
+        "Tips for dealing with a cold",
+        "How to recover from a cold"
+      ],
+      "responses": [
+        "Rest and stay hydrated to help your body recover from a cold.",
+        "Consider over-the-counter remedies for symptom relief, and consult a healthcare professional if needed."
+      ]
+    },
+    {
+      "tag": "fever-management",
+      "patterns": [
+        "Managing fever at home",
+        "Fever remedies",
+        "How to reduce fever"
+      ],
+      "responses": [
+        "Stay hydrated and get plenty of rest to manage fever.",
+        "Use fever-reducing medications as directed and consult a doctor if the fever persists."
+      ]
+    },
+    {
+      "tag": "pain-relief",
+      "patterns": [
+        "Natural pain relief methods",
+        "Managing general pain",
+        "Home remedies for pain"
+      ],
+      "responses": [
+        "Apply a cold or warm compress to the affected area for pain relief.",
+        "Consider over-the-counter pain relievers and follow proper dosage instructions."
+      ]
+    },
+    {
+      "tag": "backpain-tips",
+      "patterns": [
+        "Tips for relieving back pain",
+        "Managing lower back pain",
+        "Exercises for back pain relief"
+      ],
+      "responses": [
+        "Maintain good posture and consider gentle stretching exercises for back pain relief.",
+        "Apply heat or cold packs and, if needed, consult with a healthcare professional for personalized advice."
+      ]
+    },
+    {
+      "tag": "eyesight-tips",
+      "patterns": [
+        "Maintaining good eyesight",
+        "Tips for healthy eyes",
+        "How to protect eyesight"
+      ],
+      "responses": [
+        "Take regular breaks when working on screens to reduce eye strain.",
+        "Ensure proper lighting and consider regular eye check-ups for overall eye health."
+      ]
+    },
+    {
+      "tag": "headache-remedy",
+      "patterns": [
+        "Home remedies for headaches",
+        "How to relieve a headache",
+        "Natural headache remedies"
+      ],
+      "responses": [
+        "Stay hydrated and consider resting in a dark, quiet room for headache relief.",
+        "Gentle neck massages and cold compresses can also help alleviate headaches."
+      ]
+    },
+    {
+      "tag": "stress-headache",
+      "patterns": [
+        "Headaches due to stress",
+        "Relieving stress-related headaches",
+        "Managing tension headaches"
+      ],
+      "responses": [
+        "Practice stress management techniques like deep breathing and meditation.",
+        "Regular physical activity and maintaining a balanced lifestyle can reduce stress-related headaches."
+      ]
+    },
+    {
+      "tag": "digestive-health",
+      "patterns": [
+        "Promoting digestive health",
+        "Tips for a healthy digestive system",
+        "Foods for better digestion"
+      ],
+      "responses": [
+        "Include fiber-rich foods and probiotics in your diet for better digestive health.",
+        "Stay hydrated and maintain a balanced diet to support a healthy digestive system."
+      ]
+    },
+    {
+      "tag": "skin-care",
+      "patterns": [
+        "Maintaining healthy skin",
+        "Tips for glowing skin",
+        "Skin care routine for all ages"
+      ],
+      "responses": [
+        "Stay hydrated and use sunscreen to protect your skin from harmful UV rays.",
+        "Adopt a skincare routine based on your skin type for a radiant complexion."
+      ]
+    },
+    {
+      "tag": "flu-symptoms",
+      "patterns": [
+        "Symptoms of the flu",
+        "How to identify the flu",
+        "Flu warning signs"
+      ],
+      "responses": [
+        "Common flu symptoms include fever, cough, body aches, and fatigue.",
+        "Seek medical advice if you experience severe flu symptoms or if they persist."
+      ]
+    },
+    {
+      "tag": "stomachache-relief",
+      "patterns": [
+        "Relief for stomachaches",
+        "Home remedies for stomach pain",
+        "What to do for a stomachache"
+      ],
+      "responses": [
+        "Consider sipping peppermint tea and avoiding heavy meals for stomachache relief.",
+        "If stomach pain persists, consult with a healthcare professional for personalized advice."
+      ]
+    },
+    {
+      "tag": "allergy-tips",
+      "patterns": [
+        "Tips for managing allergies",
+        "Reducing allergy symptoms",
+        "How to cope with allergies"
+      ],
+      "responses": [
+        "Identify and avoid allergens that trigger your symptoms.",
+        "Over-the-counter antihistamines can provide relief, but consult with a doctor for severe allergies."
+      ]
+    },
+    {
+      "tag": "sleep-issues",
+      "patterns": [
+        "Dealing with sleep issues",
+        "Tips for better sleep",
+        "How to overcome insomnia"
+      ],
+      "responses": [
+        "Establish a consistent sleep routine and create a comfortable sleep environment.",
+        "If sleep problems persist, consult with a healthcare professional for further evaluation."
+      ]
+    },
+    {
+      "tag": "weight-loss-tips",
+      "patterns": [
+        "Effective weight loss tips",
+        "Healthy ways to lose weight",
+        "Tips for successful weight management"
+      ],
+      "responses": [
+        "Combine a balanced diet with regular physical activity for sustainable weight loss.",
+        "Consult with a nutritionist or healthcare professional for personalized weight loss advice."
+      ]
+    },
+    {
+      "tag": "joint-pain-remedy",
+      "patterns": [
+        "Home remedies for joint pain",
+        "Relieving joint pain naturally",
+        "Managing arthritis pain"
+      ],
+      "responses": [
+        "Apply warm compresses and consider gentle exercises for joint pain relief.",
+        "Consult with a rheumatologist for effective management of arthritis-related joint pain."
+      ]
+    },
+    {
+      "tag": "respiratory-health",
+      "patterns": [
+        "Maintaining respiratory health",
+        "Tips for healthy lungs",
+        "How to support respiratory well-being"
+      ],
+      "responses": [
+        "Avoid smoking and prioritize good air quality for respiratory health.",
+        "Regular exercise and deep breathing exercises can enhance lung function."
+      ]
+    },
+    {
+      "tag": "blood-pressure-tips",
+      "patterns": [
+        "Tips for managing blood pressure",
+        "Natural ways to lower blood pressure",
+        "How to maintain healthy blood pressure"
+      ],
+      "responses": [
+        "Adopt a low-sodium diet and engage in regular physical activity for blood pressure management.",
+        "Regular monitoring and consultation with a healthcare provider are essential for maintaining healthy blood pressure."
+      ]
+    },
+    {
+      "tag": "diabetes-care",
+      "patterns": [
+        "Tips for managing diabetes",
+        "Diabetes care guidelines",
+        "How to control blood sugar levels"
+      ],
+      "responses": [
+        "Monitor blood sugar levels regularly and adhere to a balanced diet for diabetes management.",
+        "Consult with an endocrinologist for personalized diabetes care and medication adjustments."
+      ]
+    },
+    {
+      "tag": "mental-wellness",
+      "patterns": [
+        "Promoting mental wellness",
+        "Daily practices for mental health",
+        "How to support emotional well-being"
+      ],
+      "responses": [
+        "Practice mindfulness and engage in activities that bring joy for positive mental well-being.",
+        "If struggling with mental health, consider seeking support from a mental health professional."
+      ]
+    },
+    {
+      "tag": "skin-care-tips",
+      "patterns": [
+        "Tips for healthy skin",
+        "Skincare routine advice",
+        "How to maintain clear skin"
+      ],
+      "responses": [
+        "Stay hydrated and use sunscreen for healthy skin.",
+        "Consult with a dermatologist for personalized skincare recommendations."
+      ]
+    },
+    {
+      "tag": "vision-care",
+      "patterns": [
+        "Eye care tips",
+        "How to protect eyesight",
+        "Maintaining healthy vision"
+      ],
+      "responses": [
+        "Take regular breaks from screens and schedule eye exams for optimal vision care.",
+        "If experiencing vision problems, consult with an optometrist for a comprehensive eye examination."
+      ]
+    },
+    {
+      "tag": "digestive-health",
+      "patterns": [
+        "Promoting digestive health",
+        "Foods for a healthy gut",
+        "How to relieve indigestion"
+      ],
+      "responses": [
+        "Incorporate fiber-rich foods and probiotics into your diet for digestive well-being.",
+        "Persistent digestive issues should be discussed with a gastroenterologist for proper diagnosis and treatment."
+      ]
+    },
+    {
+      "tag": "hair-care-advice",
+      "patterns": [
+        "Tips for healthy hair",
+        "Hair care routine suggestions",
+        "Dealing with hair loss"
+      ],
+      "responses": [
+        "Use a gentle shampoo and nourish your hair with regular conditioning for healthy locks.",
+        "Consult with a trichologist or dermatologist for personalized advice on managing hair-related concerns."
+      ]
+    },
+    {
+      "tag": "menstrual-health",
+      "patterns": [
+        "Maintaining menstrual health",
+        "Dealing with menstrual discomfort",
+        "Menstrual hygiene tips"
+      ],
+      "responses": [
+        "Practice good menstrual hygiene and consider lifestyle adjustments for menstrual comfort.",
+        "If experiencing severe menstrual issues, consult with a gynecologist for a thorough assessment."
+      ]
+    },
+    {
+      "tag": "bone-health",
+      "patterns": [
+        "Tips for maintaining strong bones",
+        "Preventing osteoporosis",
+        "Bone health recommendations"
+      ],
+      "responses": [
+        "Ensure an adequate intake of calcium and vitamin D for optimal bone health.",
+        "Consult with an orthopedic specialist for personalized advice on bone health and osteoporosis prevention."
+      ]
+    },
+    {
+      "tag": "ear-care-tips",
+      "patterns": [
+        "How to care for your ears",
+        "Preventing ear infections",
+        "Ear hygiene advice"
+      ],
+      "responses": [
+        "Avoid inserting objects into the ear canal and protect your ears from loud noises for ear health.",
+        "If experiencing ear issues, consult with an audiologist or ENT specialist for professional guidance."
+      ]
+    },
+    {
+      "tag": "oral-health",
+      "patterns": [
+        "Maintaining good oral hygiene",
+        "Preventing dental issues",
+        "Oral care tips"
+      ],
+      "responses": [
+        "Brush and floss regularly and schedule dental check-ups for optimal oral health.",
+        "Consult with a dentist for personalized advice on oral hygiene and dental care."
+      ]
+    },
+    {
+      "tag": "pregnancy-wellness",
+      "patterns": [
+        "Tips for a healthy pregnancy",
+        "Prenatal care recommendations",
+        "Maintaining well-being during pregnancy"
+      ],
+      "responses": [
+        "Attend regular prenatal check-ups and follow a balanced diet for a healthy pregnancy.",
+        "Consult with an obstetrician for personalized guidance on pregnancy wellness and care."
+      ]
+    },
+    {
+      "tag": "childhood-immunization",
+      "patterns": [
+        "Importance of childhood immunization",
+        "Vaccination schedule for children",
+        "Ensuring immunization for kids"
+      ],
+      "responses": [
+        "Follow the recommended immunization schedule to protect children from preventable diseases.",
+        "Consult with a pediatrician for guidance on childhood immunization and vaccine safety."
+      ]
+    },
+    {
+      "tag": "stress-management",
+      "patterns": [
+        "Effective stress management techniques",
+        "Coping with stress",
+        "Tips for stress relief"
+      ],
+      "responses": [
+        "Practice mindfulness and deep breathing for stress reduction.",
+        "Consider engaging in activities like yoga or meditation to manage stress levels."
+      ]
+    },
+    {
+      "tag": "nutrition-guidance",
+      "patterns": [
+        "Balanced nutrition advice",
+        "Creating a healthy diet plan",
+        "Nutritional tips for well-being"
+      ],
+      "responses": [
+        "Include a variety of fruits, vegetables, and whole grains in your daily meals for nutritional balance.",
+        "Consult with a registered dietitian for personalized nutrition guidance based on your health goals."
+      ]
+    },
+    {
+      "tag": "fitness-tips",
+      "patterns": [
+        "Effective fitness routines",
+        "Tips for staying physically active",
+        "Building a sustainable exercise plan"
+      ],
+      "responses": [
+        "Incorporate both cardiovascular exercises and strength training into your fitness routine for overall health.",
+        "Consult with a fitness trainer to create a personalized exercise plan that aligns with your fitness goals."
+      ]
+    },
+    {
+      "tag": "sleep-improvement",
+      "patterns": [
+        "Improving sleep quality",
+        "Tips for better sleep",
+        "Creating a bedtime routine"
+      ],
+      "responses": [
+        "Establish a consistent sleep schedule and create a relaxing bedtime routine for improved sleep.",
+        "If sleep problems persist, consult with a sleep specialist for a comprehensive assessment."
+      ]
+    },
+    {
+      "tag": "allergy-prevention",
+      "patterns": [
+        "Preventing allergies",
+        "Dealing with allergic reactions",
+        "Creating an allergy-friendly environment"
+      ],
+      "responses": [
+        "Identify and avoid allergens, and consider allergy-proofing your living spaces for allergy prevention.",
+        "Consult with an allergist for personalized advice on managing allergies and allergic reactions."
+      ]
+    },
+    {
+      "tag": "digital-wellness",
+      "patterns": [
+        "Maintaining digital wellness",
+        "Reducing screen time for health",
+        "Balancing technology use"
+      ],
+      "responses": [
+        "Take regular breaks from screens and practice the 20-20-20 rule to reduce eye strain and digital fatigue.",
+        "Set boundaries on screen time for a healthier balance between technology use and well-being."
+      ]
+    },
+    {
+      "tag": "heart-health",
+      "patterns": [
+        "Tips for a healthy heart",
+        "Preventing heart disease",
+        "Maintaining cardiovascular wellness"
+      ],
+      "responses": [
+        "Follow a heart-healthy diet, exercise regularly, and avoid smoking for optimal cardiovascular health.",
+        "Consult with a cardiologist for personalized guidance on maintaining a healthy heart."
+      ]
+    },
+    {
+      "tag": "mindful-eating",
+      "patterns": [
+        "Practicing mindful eating",
+        "Mindful eating techniques",
+        "Benefits of mindful nutrition"
+      ],
+      "responses": [
+        "Pay attention to hunger and fullness cues, and savor each bite for a more mindful eating experience.",
+        "Consider mindful eating as a way to build a healthier relationship with food and enhance overall well-being."
+      ]
+    },
+    {
+      "tag": "posture-awareness",
+      "patterns": [
+        "Improving posture",
+        "Posture correction tips",
+        "Benefits of good posture"
+      ],
+      "responses": [
+        "Maintain a neutral spine, use ergonomic furniture, and perform posture-improving exercises for better posture.",
+        "Good posture contributes to overall health and reduces the risk of musculoskeletal issues. Consider consulting with a physiotherapist for personalized advice."
+      ]
+    },
+    {
+      "tag": "hydration-importance",
+      "patterns": [
+        "Importance of staying hydrated",
+        "Hydration tips for health",
+        "Signs of dehydration"
+      ],
+      "responses": [
+        "Drink an adequate amount of water daily to support overall health and well-being.",
+        "Watch out for signs of dehydration such as dark urine and dry mouth, and adjust your fluid intake accordingly."
+      ]
+    },
+    {
+      "tag": "respiratory-health",
+      "patterns": [
+        "Maintaining respiratory health",
+        "Tips for healthy lungs",
+        "Breathing exercises for well-being"
+      ],
+      "responses": [
+        "Practice deep breathing exercises to enhance lung capacity and respiratory health.",
+        "Avoid exposure to pollutants and consider regular exercise for optimal respiratory function."
+      ]
+    },
+    {
+      "tag": "cognitive-wellness",
+      "patterns": [
+        "Enhancing cognitive wellness",
+        "Brain health tips",
+        "Cognitive exercises for mental acuity"
+      ],
+      "responses": [
+        "Stay mentally active through puzzles, games, and learning activities to support cognitive well-being.",
+        "Prioritize quality sleep and a nutritious diet for overall brain health and cognitive function."
+      ]
+    },
+    {
+      "tag": "digestive-care",
+      "patterns": [
+        "Maintaining digestive health",
+        "Tips for a healthy gut",
+        "Foods for digestive well-being"
+      ],
+      "responses": [
+        "Include fiber-rich foods in your diet and stay hydrated for a healthy digestive system.",
+        "Probiotics, such as yogurt, can contribute to a balanced gut microbiome for optimal digestive health."
+      ]
+    },
+    {
+      "tag": "vision-care",
+      "patterns": [
+        "Caring for your eyes",
+        "Eye health tips",
+        "Reducing eye strain"
+      ],
+      "responses": [
+        "Take regular breaks during screen time to reduce eye strain and maintain good eye health.",
+        "Annual eye check-ups are crucial for detecting potential issues early and ensuring overall eye wellness."
+      ]
+    },
+    {
+      "tag": "joint-health",
+      "patterns": [
+        "Tips for joint health",
+        "Exercises for joint flexibility",
+        "Maintaining musculoskeletal well-being"
+      ],
+      "responses": [
+        "Engage in low-impact exercises, such as swimming or walking, to support joint health.",
+        "Consider dietary supplements like omega-3 fatty acids for their potential benefits in maintaining joint flexibility."
+      ]
+    },
+    {
+      "tag": "immune-boosting",
+      "patterns": [
+        "Boosting the immune system",
+        "Foods for immune support",
+        "Lifestyle habits for a resilient immune system"
+      ],
+      "responses": [
+        "Eat a nutrient-rich diet, exercise regularly, and get adequate sleep to strengthen your immune system.",
+        "Vitamin C-rich foods, such as citrus fruits, can contribute to immune health."
+      ]
+    },
+    {
+      "tag": "mind-body-connection",
+      "patterns": [
+        "Understanding the mind-body connection",
+        "Holistic approaches to health",
+        "Mental well-being techniques"
+      ],
+      "responses": [
+        "Explore mindfulness practices, such as meditation and yoga, to foster a strong mind-body connection.",
+        "Recognize the impact of mental well-being on overall health and consider holistic approaches for a balanced lifestyle."
+      ]
+    },
+    {
+      "tag": "oral-hygiene",
+      "patterns": [
+        "Maintaining oral hygiene",
+        "Tips for healthy teeth and gums",
+        "Preventing dental issues"
+      ],
+      "responses": [
+        "Brush and floss regularly, and schedule routine dental check-ups for optimal oral health.",
+        "Limit sugary food and drinks to reduce the risk of dental problems like cavities."
+      ]
+    },
+    {
+      "tag": "hormonal-balance",
+      "patterns": [
+        "Balancing hormones naturally",
+        "Lifestyle choices for hormonal health",
+        "Understanding hormonal fluctuations"
+      ],
+      "responses": [
+        "Regular exercise and a balanced diet play key roles in maintaining hormonal balance.",
+        "Consider stress management techniques, as chronic stress can impact hormonal health."
+      ]
+    },
+    {
+      "tag": "social-wellness",
+      "patterns": [
+        "Nurturing social well-being",
+        "Building meaningful connections",
+        "Impact of social interactions on health"
+      ],
+      "responses": [
+        "Cultivate strong social connections for improved mental and emotional well-being.",
+        "Engage in activities that foster a sense of community and support social wellness."
+      ]
+    },
+    {
+      "tag": "poisoning",
+      "patterns": [
+        "Suspected poisoning",
+        "Ingested toxic substance",
+        "Emergency: Poison control"
+      ],
+      "responses": [
+        "If you suspect poisoning, call your local poison control center or emergency services immediately.",
+        "Do not wait for symptoms to appear; seek professional medical assistance right away.",
+        "Provide information about the substance ingested and follow the guidance of emergency responders."
+      ]
+    },
+    {
+      "tag": "snake_bite",
+      "patterns": [
+        "Snake bite",
+        "Bitten by snake",
+        "Venomous creature encounter"
+      ],
+      "responses": [
+        "If bitten by a snake or any venomous creature, remain as calm as possible to slow down the spread of venom.",
+        "Call emergency services immediately and try to describe the snake or creature for appropriate medical response.",
+        "Do not attempt to suck out venom or apply a tourniquet; let medical professionals handle the situation."
+      ]
+    },
+    {
+      "tag": "respiratory_infection",
+      "patterns": ["Persistent cough", "Difficulty breathing", "Chest congestion"],
+      "responses": ["If symptoms persist for more than a week, consult a healthcare professional. Rest and stay hydrated in the meantime."]
+    },
+    {
+      "tag": "migraine",
+      "patterns": ["Severe headache", "Throbbing head pain", "Sensitivity to light"],
+      "responses": ["Find a quiet, dark space to rest. Consider over-the-counter pain relief, and consult a doctor if migraines are recurrent."]
+    },
+    {
+      "tag": "sleep_disorder",
+      "patterns": ["Insomnia", "Trouble sleeping", "Restless nights"],
+      "responses": ["Establish a consistent sleep routine. If problems persist, consult a healthcare provider for a thorough evaluation."]
+    },
+    {
+      "tag": "vitamin_deficiency",
+      "patterns": ["Constant fatigue", "Muscle weakness", "Brittle nails"],
+      "responses": ["Consider a balanced diet or supplements. If symptoms continue, seek advice from a healthcare professional."]
+    },
+    {
+      "tag": "joint_pain",
+      "patterns": ["Persistent joint pain", "Stiffness", "Reduced range of motion"],
+      "responses": ["Apply ice or heat, and rest the affected joint. Consult a doctor for a proper diagnosis and treatment plan."]
+    },
+    {
+      "tag": "anxiety_attack",
+      "patterns": ["Feeling overwhelmed", "Rapid heartbeat", "Excessive worry"],
+      "responses": ["Practice deep breathing exercises. If anxiety persists, consider seeking guidance from a mental health professional."]
+    },
+    {
+      "tag": "diabetes_symptoms",
+      "patterns": ["Frequent urination", "Increased thirst", "Unexplained weight loss"],
+      "responses": ["Monitor blood sugar levels and consult a healthcare provider for further evaluation if diabetes symptoms are suspected."]
+    },
+    {
+      "tag": "allergy_symptoms",
+      "patterns": ["Sneezing", "Watery eyes", "Itchy skin"],
+      "responses": ["Identify potential allergens and consider over-the-counter antihistamines. Consult a doctor for persistent or severe symptoms."]
+    },
+    {
+      "tag": "stress_management",
+      "patterns": ["Feeling stressed", "Tense muscles", "Difficulty concentrating"],
+      "responses": ["Practice stress-reducing activities such as meditation or exercise. If stress becomes overwhelming, seek professional guidance."]
+    },
+    {
+      "tag": "digestive_issues",
+      "patterns": ["Abdominal pain", "Bloating", "Irregular bowel movements"],
+      "responses": ["Maintain a balanced diet with fiber. If digestive issues persist, consult a healthcare provider for further assessment."]
+    },
+    {
+      "tag": "flu_symptoms",
+      "patterns": ["Fever", "Body aches", "Fatigue", "Sore throat"],
+      "responses": ["Rest and stay hydrated. If symptoms worsen, consult a healthcare professional."]
+    },
+    {
+      "tag": "hypertension_signs",
+      "patterns": ["High blood pressure", "Headaches", "Nosebleeds"],
+      "responses": ["Monitor blood pressure regularly. Consult a doctor for personalized advice."]
+    },
+    {
+      "tag": "skin_rashes",
+      "patterns": ["Itchy skin", "Redness", "Bumps or blisters"],
+      "responses": ["Avoid scratching. Apply over-the-counter creams and consult a dermatologist if needed."]
+    },
+    {
+      "tag": "vision_issues",
+      "patterns": ["Blurred vision", "Eye pain", "Sensitivity to light"],
+      "responses": ["Rest your eyes, use artificial tears, and see an eye specialist if problems persist."]
+    },
+    {
+      "tag": "earache",
+      "patterns": ["Ear pain", "Hearing loss", "Fluid drainage"],
+      "responses": ["Avoid inserting objects into the ear. Consult an ENT specialist for a proper diagnosis."]
+    },
+    {
+      "tag": "urinary_tract_infection",
+      "patterns": ["Painful urination", "Frequent urges to urinate", "Cloudy or strong-smelling urine"],
+      "responses": ["Stay hydrated and consult a doctor for antibiotics if symptoms persist."]
+    },
+    {
+      "tag": "osteoporosis_signs",
+      "patterns": ["Bone pain", "Loss of height", "Fractures"],
+      "responses": ["Ensure an adequate calcium intake and consult a healthcare professional for assessment."]
+    },
+    {
+      "tag": "thyroid_issues",
+      "patterns": ["Fatigue", "Weight changes", "Irregular menstruation"],
+      "responses": ["Consult an endocrinologist for thyroid function tests and appropriate management."]
+    },
+    {
+      "tag": "migraine_triggers",
+      "patterns": ["Bright lights", "Certain foods", "Stress"],
+      "responses": ["Identify triggers and consider lifestyle changes. Consult a neurologist for severe cases."]
+    },
+    {
+      "tag": "gastroenteritis",
+      "patterns": ["Nausea", "Vomiting", "Diarrhea"],
+      "responses": ["Stay hydrated with clear fluids. Seek medical attention if symptoms persist."]
+    },
+    {
+      "tag": "abdominal_aortic_aneurysm",
+      "patterns": ["Abdominal aortic aneurysm", "Aortic aneurysm symptoms", "AAA"],
+      "responses": ["Abdominal aortic aneurysm is a swelling of the aorta. Seek immediate medical attention if you experience sudden severe abdominal or back pain."]
+    },
+    {
+      "tag": "acne",
+      "patterns": ["Acne", "Pimple", "Skin breakouts"],
+      "responses": ["Acne is a common skin condition. Maintain good hygiene and consider consulting a dermatologist for personalized treatment."]
+    },
+    {
+      "tag": "acute_cholecystitis",
+      "patterns": ["Acute cholecystitis", "Gallbladder inflammation", "Gallstones"],
+      "responses": ["Acute cholecystitis is gallbladder inflammation. Consult a doctor if you experience severe abdominal pain, nausea, or vomiting."]
+    },
+    {
+      "tag": "abdominal_aortic_aneurysm",
+      "patterns": ["Abdominal aortic aneurysm", "Aortic aneurysm symptoms", "AAA"],
+      "responses": ["Abdominal aortic aneurysm is a swelling of the aorta. Seek immediate medical attention if you experience sudden severe abdominal or back pain."]
+    },
+    {
+      "tag": "acne",
+      "patterns": ["Acne", "Pimple", "Skin breakouts"],
+      "responses": ["Acne is a common skin condition. Maintain good hygiene and consider consulting a dermatologist for personalized treatment."]
+    },
+    {
+      "tag": "acute_cholecystitis",
+      "patterns": ["Acute cholecystitis", "Gallbladder inflammation", "Gallstones"],
+      "responses": ["Acute cholecystitis is gallbladder inflammation. Consult a doctor if you experience severe abdominal pain, nausea, or vomiting."]
+    },
+    {
+      "tag": "acute_lymphoblastic_leukaemia",
+      "patterns": ["Acute lymphoblastic leukaemia", "ALL symptoms", "Childhood leukaemia"],
+      "responses": ["Acute lymphoblastic leukaemia is a type of blood cancer. Symptoms include fatigue, pale skin, and frequent infections. Immediate medical attention is crucial."]
+    },
+    {
+      "tag": "acute_myeloid_leukaemia",
+      "patterns": ["Acute myeloid leukaemia", "AML symptoms", "Adult leukaemia"],
+      "responses": ["Acute myeloid leukaemia is a fast-growing blood cancer. Seek medical advice if you notice symptoms like fatigue, shortness of breath, or easy bruising."]
+    },
+    {
+      "tag": "acute_pancreatitis",
+      "patterns": ["Acute pancreatitis", "Pancreas inflammation", "Pancreatic pain"],
+      "responses": ["Acute pancreatitis is pancreas inflammation. Seek medical help if you experience severe abdominal pain, nausea, or vomiting."]
+    },
+    {
+      "tag": "adenomyosis",
+      "patterns": ["Adenomyosis", "Uterine condition", "Heavy menstrual bleeding"],
+      "responses": ["Adenomyosis is a uterine condition. Consult a gynecologist if you experience pelvic pain, heavy menstrual bleeding, or painful periods."]
+    },
+    {
+      "tag": "alcohol_related_liver_disease",
+      "patterns": ["Alcohol-related liver disease", "ARLD symptoms", "Liver damage from alcohol"],
+      "responses": ["Alcohol-related liver disease is caused by excessive alcohol consumption. Seek medical advice if you experience jaundice, abdominal pain, or swelling."]
+    },
+    {
+      "tag": "allergic_rhinitis",
+      "patterns": ["Allergic rhinitis", "Hay fever", "Seasonal allergies"],
+      "responses": ["Allergic rhinitis is an allergic reaction to airborne allergens. Over-the-counter antihistamines can help alleviate symptoms like sneezing and nasal congestion."]
+    },
+    {
+      "tag": "alzheimers_disease",
+      "patterns": ["Alzheimer’s disease", "Memory loss", "Cognitive decline"],
+      "responses": ["Alzheimer's disease is a progressive neurological disorder. Consult a neurologist if you notice memory loss, confusion, or changes in behavior."]
+    },
+    {
+      "tag": "anal_cancer",
+      "patterns": ["Anal cancer", "Rectal cancer", "Anal tumors"],
+      "responses": ["Anal cancer affects the tissues of the anus. Seek medical attention if you experience anal bleeding, pain, or changes in bowel habits."]
+    },
+    {
+      "tag": "anaphylaxis",
+      "patterns": ["Anaphylaxis", "Severe allergic reaction", "Epinephrine injection"],
+      "responses": ["Anaphylaxis is a life-threatening allergic reaction. Administer epinephrine and seek emergency medical help if someone experiences difficulty breathing, swelling, or a rapid heartbeat."]
+    },
+    {
+      "tag": "angioedema",
+      "patterns": ["Angioedema", "Swelling under the skin", "Allergic reaction"],
+      "responses": ["Angioedema is rapid swelling beneath the skin's surface. Seek medical attention if you experience facial swelling, difficulty breathing, or hives."]
+    },
+    {
+      "tag": "ankylosing_spondylitis",
+      "patterns": ["Ankylosing spondylitis", "Spinal arthritis", "Back pain stiffness"],
+      "responses": ["Ankylosing spondylitis is a type of arthritis affecting the spine. Consult a rheumatologist if you experience chronic back pain, stiffness, or fatigue."]
+    },
+    {
+      "tag": "anorexia_nervosa",
+      "patterns": ["Anorexia nervosa", "Eating disorder", "Extreme weight loss"],
+      "responses": ["Anorexia nervosa is an eating disorder characterized by excessive weight loss. Seek help from a mental health professional if you or someone you know is struggling with anorexia."]
+    },
+    {
+      "tag": "anxiety",
+      "patterns": ["Anxiety", "Excessive worry", "Panic attacks"],
+      "responses": ["Anxiety is a mental health condition. Consult a mental health professional for therapy or medication if you experience persistent worry, fear, or panic attacks."]
+    },
+    {
+      "tag": "appendicitis",
+      "patterns": ["Appendicitis", "Appendix pain", "Appendectomy"],
+      "responses": ["Appendicitis is inflammation of the appendix. Seek immediate medical attention if you experience abdominal pain, nausea, and vomiting."]
+    },
+    {
+      "tag": "asbestosis",
+      "patterns": ["Asbestosis", "Asbestos exposure", "Lung scarring"],
+      "responses": ["Asbestosis is lung scarring due to asbestos exposure. Consult a pulmonologist if you experience shortness of breath, persistent cough, or chest pain."]
+    },
+    {
+      "tag": "asthma",
+      "patterns": ["Asthma", "Bronchial condition", "Wheezing"],
+      "responses": ["Asthma is a chronic respiratory condition. Consult a pulmonologist for a personalized asthma management plan if you experience wheezing, shortness of breath, or chest tightness."]
+    },
+    {
+      "tag": "atopic_eczema",
+      "patterns": ["Atopic eczema", "Eczema", "Itchy skin"],
+      "responses": ["Atopic eczema is a chronic skin condition. Consult a dermatologist for a skincare routine and medications to manage symptoms like itching and inflammation."]
+    },
+    {
+      "tag": "adhd",
+      "patterns": ["Attention deficit hyperactivity disorder (ADHD)", "Inattention", "Hyperactivity"],
+      "responses": ["ADHD is a neurodevelopmental disorder. Consult a psychiatrist for a comprehensive evaluation and personalized treatment plan if you experience symptoms like inattention and hyperactivity."]
+    },
+    {
+      "tag": "autism_spectrum_disorder",
+      "patterns": ["Autistic spectrum disorder (ASD)", "Autism symptoms", "Social communication difficulties"],
+      "responses": ["ASD is a developmental disorder affecting social interaction. Consult a developmental pediatrician or psychologist for a thorough evaluation and intervention plan."]
+    },
+    {
+      "tag": "bacterial_vaginosis",
+      "patterns": ["Bacterial vaginosis", "Vaginal infection", "Vaginal discharge"],
+      "responses": ["Bacterial vaginosis is a common vaginal infection. Consult a gynecologist for diagnosis and treatment if you experience unusual vaginal discharge or odor."]
+    },
+    {
+      "tag": "benign_prostate_enlargement",
+      "patterns": ["Benign prostate enlargement", "BPH symptoms", "Prostate issues"],
+      "responses": ["Benign prostate enlargement is a common condition in aging men. Consult a urologist if you experience symptoms like frequent urination, difficulty starting or stopping urination."]
+    },
+    {
+      "tag": "bile_duct_cancer",
+      "patterns": ["Bile duct cancer", "Cholangiocarcinoma", "Liver cancer"],
+      "responses": ["Bile duct cancer affects the bile ducts in the liver. Consult an oncologist if you experience jaundice, abdominal pain, or unexplained weight loss."]
+    },
+    {
+      "tag": "binge_eating",
+      "patterns": ["Binge eating", "Compulsive overeating", "Emotional eating"],
+      "responses": ["Binge eating is a pattern of overeating. Consult a mental health professional for support and strategies if you struggle with compulsive overeating or emotional eating."]
+    },
+    {
+      "tag": "bipolar_disorder",
+      "patterns": ["Bipolar disorder", "Manic-depressive illness", "Mood swings"],
+      "responses": ["Bipolar disorder involves extreme mood swings. Consult a psychiatrist for diagnosis and a treatment plan if you experience episodes of mania and depression."]
+    },
+    {
+      "tag": "bladder_cancer",
+      "patterns": ["Bladder cancer", "Hematuria", "Urinary symptoms"],
+      "responses": ["Bladder cancer affects the bladder lining. Consult a urologist if you experience blood in the urine, frequent urination, or pain during urination."]
+    },
+    {
+      "tag": "blood_poisoning",
+      "patterns": ["Blood poisoning (sepsis)", "Sepsis symptoms", "Infection"],
+      "responses": ["Blood poisoning, or sepsis, is a life-threatening infection. Seek emergency medical attention if you experience symptoms like high fever, rapid heartbeat, or confusion."]
+    },
+    {
+      "tag": "bone_cancer",
+      "patterns": ["Bone cancer", "Osteosarcoma", "Bone tumor"],
+      "responses": ["Bone cancer affects the bones. Consult an oncologist if you experience bone pain, swelling, or fractures without significant trauma."]
+    },
+    {
+      "tag": "bowel_cancer",
+      "patterns": ["Bowel cancer", "Colorectal cancer", "Colon tumor"],
+      "responses": ["Bowel cancer affects the colon or rectum. Consult a gastroenterologist or oncologist if you experience changes in bowel habits, blood in stool, or abdominal pain."]
+    }
+
+  ]
+}
+
+    
+  
+
